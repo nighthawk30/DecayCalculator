@@ -1,6 +1,9 @@
 /*
 Nathan Taylor
 Nuclear Decay Calculator - using Taylor Polynomials
+N(t) = Ne^(-.693t/h)
+N(t) is the function of amount of an element remaining after t time
+h is the half life of the element and N is the intial amount
 */
 
 #include <iostream>
@@ -17,6 +20,8 @@ int main()
   
   return 0;
 }
+
+
 
 void printCommands()
 {
